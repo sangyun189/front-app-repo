@@ -17,7 +17,7 @@ jobs:
 
       - name: Build front
         run: |
-          npm install
+          npm install react-scripts@latest 
           npm run build
 
       - name: Configure AWS credentials
